@@ -9,10 +9,13 @@ class PasswordInput extends Component {
         //state
         this.state = {
             password: ''
+            
         }
 
         //even handlers
-        this.onPasswordChange = this.onPasswordChange.bind(this);        
+        this.onPasswordChange = this.onPasswordChange.bind(this);
+             
+      
 
     }
 
